@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anabrata Biswas</title>
+  <meta name="description" content="Hellow!" />
+
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <!--
+    ★ WHY NO SANDBOX ATTRIBUTE:
+    ─────────────────────────────────────────────────────────
+    Your Mampibiswas site uses a smartOpen() function that calls
+    window.open(url, '_blank') for WhatsApp, Facebook, Instagram links.
+    
+    With sandbox, even with allow-popups + allow-popups-to-escape-sandbox,
+    some browsers still block window.open() from inside sandboxed iframes
+    for sites like WhatsApp/Facebook that set X-Frame-Options: DENY.
+    
+    Removing sandbox lets your site's JavaScript run exactly as it does
+    when opened directly — WhatsApp/Facebook links open in new tabs,
+    phone call links work, and everything functions 100%.
+    
+    The iframe still cannot access THIS parent page (cross-origin policy
+    protects the parent automatically).
+    ─────────────────────────────────────────────────────────
+  -->
+  <iframe
+    id="mainFrame"
+    src="https://anabrata.github.io/anabrata/link8/"
+    loading="eager"
+    referrerpolicy="no-referrer"
+    allowfullscreen
+  ></iframe>
+</body>
+</html>
